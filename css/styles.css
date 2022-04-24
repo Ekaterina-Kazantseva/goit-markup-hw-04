@@ -210,19 +210,15 @@ img {
   padding-right: 30px;
 }
 .benefis-icon {
+  display: flex;
   background-color: var(--alternative-background-color);
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
 }
-.antenna {
-  margin: 25px 102.34px 25px 102.34px;
-}
-.clock,
-.diagram,
-.astronaut {
-  margin: 25px 100px 25px 100px;
-}
+
 /*Чем мы занимаемся*/
 .working-section .title,
 .team-section .title,
@@ -289,8 +285,11 @@ img {
   justify-content: center;
   align-items: center;
 }
-.team-soc-link + .team-soc-link {
-  margin-left: 10px;
+.team-soc-list {
+  margin-right: 10px;
+}
+.team-soc-list:last-child {
+  margin-right: 0;
 }
 .team-soc-icon {
   fill: #afb1b8;
@@ -310,10 +309,12 @@ img {
   padding-top: 94px;
   margin-bottom: 50px;
 }
-.client-list {
-  display: flex;
-  list-style: none;
+.client-container {
   padding-bottom: 94px;
+}
+.client-list {
+  list-style: none;
+  display: flex;
 }
 .client-item {
   width: 170px;
@@ -321,15 +322,18 @@ img {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
-}
-.client-item {
   margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .client-item:last-child {
   margin-right: 0;
 }
+.client-link,
 .client-icon {
-  margin: 16px 32px 16px 32px;
+  width: 106px;
+  height: 60px;
   fill: #afb1b8;
 }
 
@@ -387,7 +391,7 @@ img {
   display: flex;
 }
 .nav {
-  width: 30%;
+  margin-right: 80px;
 }
 .soc-title {
   color: var(--primary-color);
