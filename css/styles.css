@@ -294,7 +294,6 @@ img {
 .team-soc-icon {
   fill: #afb1b8;
 }
-
 .team-soc-link:hover,
 .team-soc-link:focus {
   border-radius: 50%;
@@ -336,7 +335,6 @@ img {
   height: 60px;
   fill: #afb1b8;
 }
-
 .client-item:hover,
 .client-item:focus {
   border: 1px solid var(--accent-color);
