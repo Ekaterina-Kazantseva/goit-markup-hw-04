@@ -335,10 +335,12 @@ img {
   height: 60px;
   fill: #afb1b8;
 }
+
 .client-item:hover,
 .client-item:focus {
   border: 1px solid var(--accent-color);
 }
+
 .client-item:hover .client-icon,
 .client-item:focus .client-icon {
   fill: var(--accent-color);
