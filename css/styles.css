@@ -238,6 +238,7 @@ img {
 .item-working:not(:last-child) {
   padding-right: 30px;
 }
+
 /*Наша  команда*/
 .team-section {
   background-color: var(--alternative-background-color);
@@ -303,6 +304,7 @@ img {
 .team-soc-link:focus .team-soc-icon {
   fill: var(--primary-color);
 }
+
 /*Постоянные клиенты*/
 .client-section .title {
   padding-top: 94px;
@@ -336,13 +338,11 @@ img {
   height: 60px;
   fill: #afb1b8;
 }
-
 .client-item:hover,
 .client-item:focus {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
 }
-
 .client-item:hover .client-icon,
 .client-item:focus .client-icon {
   fill: var(--accent-color);
@@ -359,7 +359,6 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
 .address,
 .footer-nav {
   font-size: 14px;
@@ -432,6 +431,7 @@ img {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
+
 /*Портфолио*/
 .portfolio-title {
   position: absolute;
@@ -445,7 +445,6 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 .portfolio-list {
   background-color: var(--primary-background-color);
   width: 370px;
