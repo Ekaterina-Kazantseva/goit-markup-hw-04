@@ -34,6 +34,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 /*Контейнер*/
 .container {
   width: 1200px;
@@ -45,14 +46,17 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 /*Для списков*/
 .list {
   list-style: none;
 }
+
 /*Для второстепенных заголовков*/
 .title {
   color: var(--alternative-text-color);
 }
+
 /*Шапка сайта*/
 .logo {
   color: var(--accent-color);
@@ -62,7 +66,6 @@ img {
   font-size: 26px;
   line-height: 1.19;
 }
-
 .logo .accent {
   color: #000000;
 }
@@ -130,11 +133,11 @@ img {
 .auth-link:not(:last-child) {
   margin-right: 50px;
 }
-
 .auth-icon {
   fill: currentColor;
   margin-right: 10px;
 }
+
 /*Герой*/
 .hero {
   background-color: #2f303a;
